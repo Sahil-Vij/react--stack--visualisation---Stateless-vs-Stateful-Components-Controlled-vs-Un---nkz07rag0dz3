@@ -1,5 +1,5 @@
 import React from 'react';
-function Element() {
+function Element(props) {
   return <div className="element">{props.item}</div>;
 }
 
